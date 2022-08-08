@@ -10,6 +10,8 @@
 .svn/
 migrate_working_dir/
 
+lib/firebase_options.dart
+
 # IntelliJ related
 *.iml
 *.ipr
@@ -32,6 +34,7 @@ migrate_working_dir/
 .pub/
 /build/
 
+
 # Web related
 lib/generated_plugin_registrant.dart
 
@@ -45,3 +48,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/app/google-services.json
+
+/ios/firebase_app_id_file.json
+/ios/Runner/GoogleService-Info.plist

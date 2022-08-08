@@ -1,0 +1,4 @@
+enum Variant {
+  outline,
+  filled
+}

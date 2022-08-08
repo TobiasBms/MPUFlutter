@@ -1,41 +1,24 @@
-import 'dart:ui';
-
-import 'package:cross_fit_app/Widgets/custom_btn.dart';
 import 'package:flutter/material.dart';
+import '../Theme/Enums/variant.dart';
 
-class HighlightButtonState extends StatefulWidget {
-  const HighlightButtonState({Key? key}) : super(key: key);
+class TmaButton extends StatelessWidget{
 
+  //Properties
+  final int label;
+  final Function onChange;
+  final Variant variant;
 
-  @override
-  State<HighlightButtonState> createState() => HighlightButton();
-
-}
-
-class HighlightButton extends State<HighlightButtonState> {
-
-  void onPressed(){
-    print("pressed");
-  }
+  const TmaButton({super.key, required this.onChange, required this.label, required this.variant});
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
-      onPressed: () => {},
-      style: ButtonStyle(
-        shape: MaterialStateProperty.resolveWith<OutlinedBorder?>(
-                (Set<MaterialState> states) {
-              return const RoundedRectangleBorder(side: BorderSide(color: Colors.white));
-          }
+
+    return  OutlinedButton(
+        style: OutlinedButton.styleFrom(
+          primary: Colors.white,
+          side: const BorderSide(color: Colors.amber, width: 1.5)
         ),
-        backgroundColor: MaterialStateProperty.resolveWith<Color?>(
-              (Set<MaterialState> states) {
-            return Theme.of(context).colorScheme.primary.withOpacity(0.0); // Use the component's default.
-          },
-        ),
-      ), child: const Icon(Icons.add, color: Colors.white)
-    );
+          onPressed: () => onChange(),
+        child: Text(label.toString()));
   }
-
 }
-

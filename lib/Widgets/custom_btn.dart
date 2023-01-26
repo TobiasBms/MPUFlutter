@@ -4,21 +4,25 @@ import '../Theme/Enums/variant.dart';
 class TmaButton extends StatelessWidget{
 
   //Properties
-  final int label;
-  final Function onChange;
+  final String label;
+  final VoidCallback? onClick;
   final Variant variant;
 
-  const TmaButton({super.key, required this.onChange, required this.label, required this.variant});
+  const TmaButton({super.key, required this.onClick, required this.label, required this.variant});
 
   @override
   Widget build(BuildContext context) {
 
-    return  OutlinedButton(
+    return  variant == Variant.outline ? OutlinedButton(
         style: OutlinedButton.styleFrom(
-          primary: Colors.white,
-          side: const BorderSide(color: Colors.amber, width: 1.5)
+          foregroundColor: Colors.white, side: const BorderSide(color: Colors.amber, width: 1.5)
         ),
-          onPressed: () => onChange(),
-        child: Text(label.toString()));
+          onPressed: onClick,
+        child: Text(label)) : ElevatedButton(
+        style: ElevatedButton.styleFrom(
+            foregroundColor: Colors.white, side: const BorderSide(color: Colors.amber, width: 1.5)
+        ),
+        onPressed: onClick,
+        child: Text(label));
   }
 }

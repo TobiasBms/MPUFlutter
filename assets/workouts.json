@@ -1,0 +1,222 @@
+ [
+   {
+     "id": 1,
+     "title": "Fran",
+     "timeCap": "3 minutes",
+     "desc": "Fran is a classic CrossFit workout consisting of three rounds of 21-15-9 reps of thrusters and pull-ups.",
+     "exercises": [
+       {
+         "id": 1,
+         "title": "Thruster",
+         "desc": "Start with the barbell on the ground. Stand up and clean the barbell to your shoulders. From there, dip down into a quarter squat and explode up, pressing the barbell above your head."
+       },
+       {
+         "id": 2,
+         "title": "Pull-Up",
+         "desc": "Start from a dead hang with your palms facing away from you. Pull your body up until your chin is above the bar, then slowly lower back down to the starting position."
+       }
+     ]
+   },
+   {
+     "id": 2,
+     "title": "Grace",
+     "timeCap": "4 minutes",
+     "desc": "Grace is a CrossFit benchmark workout consisting of 30 reps of clean and jerks.",
+     "exercises": [
+       {
+         "id": 1,
+         "title": "Clean and Jerk",
+         "desc": "Start with the barbell on the ground. Stand up and clean the barbell to your shoulders. From there, dip down into a quarter squat and explode up, pressing the barbell above your head."
+       }
+     ]
+   },
+   {
+     "id": 3,
+     "title": "Karen",
+     "timeCap": "7 minutes",
+     "desc": "Karen is a CrossFit benchmark workout consisting of 150 wallballs.",
+     "exercises": [
+       {
+         "id": 1,
+         "title": "Wallball",
+         "desc": "Start with a medicine ball at chest level. Dip your knees slightly and explode up, throwing the ball up against the wall. Catch the ball in both hands, and repeat."
+       }
+     ]
+   },
+   {
+     "id": 4,
+     "title": "Annie",
+     "timeCap": "7 minutes",
+     "desc": "Annie is a CrossFit benchmark workout consisting of 50-40-30-20-10 reps of double-unders and sit-ups.",
+     "exercises": [
+       {
+         "id": 1,
+         "title": "Double-Under",
+         "desc": "Start with the jump rope in both hands. Swing the jump rope around your body and jump, causing the rope to pass twice under your feet with each jump."
+       },
+       {
+         "id": 2,
+         "title": "Sit-Up",
+         "desc": "Start laying on your back with your legs bent and feet flat on the ground. Reach your arms up and use your core to sit up until your elbows touch your knees."
+       }
+     ]
+   },
+   {
+     "id": 5,
+     "title": "Filthy 50",
+     "timeCap": "15 minutes",
+     "desc": "Filthy 50 is a CrossFit workout consisting of 50 reps of box jumps, jump rope, push-ups, kettlebell swings, wallballs, and more.",
+     "exercises": [
+       {
+         "id": 1,
+         "title": "Box Jump",
+         "desc": "Start with feet shoulder width apart and arms at your sides. Squat down, then explode up, jumping onto the box. Step or jump down, and repeat."
+       },
+       {
+         "id": 2,
+         "title": "Jump Rope",
+         "desc": "Start with the jump rope in both hands. Swing the jump rope around your body and jump, causing the rope to pass once under your feet with each jump."
+       },
+       {
+         "id": 3,
+         "title": "Push-Up",
+         "desc": "Start in a plank position with your hands directly below your shoulders. Bend your elbows and lower your chest to the ground, then press back up."
+       },
+       {
+         "id": 4,
+         "title": "Kettlebell Swing",
+         "desc": "Start with a kettlebell on the ground between your feet. Hinge at the hips, sending the kettlebell back between your legs. Explosively stand up, sending the kettlebell up to eye-level."
+       },
+       {
+         "id": 5,
+         "title": "Wallball",
+         "desc": "Start with a medicine ball at chest level. Dip your knees slightly and explode up, throwing the ball up against the wall. Catch the ball in both hands, and repeat."
+       }
+     ]
+   },
+   {
+     "id": 6,
+     "title": "Helen",
+     "timeCap": "15 minutes",
+     "desc": "Helen is a CrossFit benchmark workout consisting of three rounds of 400m runs, kettlebell swings, and pull-ups.",
+     "exercises": [
+       {
+         "id": 1,
+         "title": "400m Run",
+         "desc": "Start at the start line and run 400m, crossing the finish line once you have completed the 400m distance."
+       },
+       {
+         "id": 2,
+         "title": "Kettlebell Swing",
+         "desc": "Start with a kettlebell on the ground between your feet. Hinge at the hips, sending the kettlebell back between your legs. Explosively stand up, sending the kettlebell up to eye-level."
+       },
+       {
+         "id": 3,
+         "title": "Pull-Up",
+         "desc": "Start from a dead hang with your palms facing away from you. Pull your body up until your chin is above the bar, then slowly lower back down to the starting position."
+       }
+     ]
+   },
+   {
+     "id": 7,
+     "title": "Cindy",
+     "timeCap": "20 minutes",
+     "desc": "Cindy is a CrossFit benchmark workout consisting of as many rounds as possible of 5 pull-ups, 10 push-ups and 15 air squats.",
+     "exercises": [
+       {
+         "id": 1,
+         "title": "Pull-Up",
+         "desc": "Start from a dead hang with your palms facing away from you. Pull your body up until your chin is above the bar, then slowly lower back down to the starting position."
+       },
+       {
+         "id": 2,
+         "title": "Push-Up",
+         "desc": "Start in a plank position with your hands directly below your shoulders. Bend your elbows and lower your chest to the ground, then press back up."
+       },
+       {
+         "id": 3,
+         "title": "Air Squat",
+         "desc": "Start with feet shoulder width apart and arms at your sides. Squat down, keeping your chest up and your knees out. Stand up, and repeat."
+       }
+     ]
+   },
+   {
+     "id": 8,
+     "title": "Fight Gone Bad",
+     "timeCap": "20 minutes",
+     "desc": "Fight Gone Bad is a CrossFit workout consisting of three rounds of wallballs, sumo deadlift high pulls, box jumps, push press and row.",
+     "exercises": [
+       {
+         "id": 1,
+         "title": "Wallball",
+         "desc": "Start with a medicine ball at chest level. Dip your knees slightly and explode up, throwing the ball up against the wall. Catch the ball in both hands, and repeat."
+       },
+       {
+         "id": 2,
+         "title": "Sumo Deadlift High Pull",
+         "desc": "Start with feet in a wide stance and the barbell on the ground. From there, deadlift the barbell up and explosively pull it up to your chin."
+       },
+       {
+         "id": 3,
+         "title": "Box Jump",
+         "desc": "Start with feet shoulder width apart and arms at your sides. Squat down, then explode up, jumping onto the box. Step or jump down, and repeat."
+       },
+       {
+         "id": 4,
+         "title": "Push Press",
+         "desc": "Start with the barbell on the ground. Stand up and clean the barbell to your shoulders. From there, dip down and explosively press the barbell above your head."
+       },
+       {
+         "id": 5,
+         "title": "Row",
+         "desc": "Start seated with the handle of the rower in both hands. Push with your legs and pull with your arms to move the handle towards your chest, then repeat."
+       }
+     ]
+   },
+   {
+     "id": 9,
+     "title": "Murph",
+     "timeCap": "30 minutes",
+     "desc": "Murph is a CrossFit workout consisting of a 1-mile run, 100 pull-ups, 200 push-ups, 300 air squats, and a 1-mile run.",
+     "exercises": [
+       {
+         "id": 1,
+         "title": "1-Mile Run",
+         "desc": "Start at the start line and run 1 miles, crossing the finish line once you have completed the 1-mile distance."
+       },
+       {
+         "id": 2,
+         "title": "Pull-Up",
+         "desc": "Start from a dead hang with your palms facing away from you. Pull your body up until your chin is above the bar, then slowly lower back down to the starting position."
+       },
+       {
+         "id": 3,
+         "title": "Push-Up",
+         "desc": "Start in a plank position with your hands directly below your shoulders. Bend your elbows and lower your chest to the ground, then press back up."
+       },
+       {
+         "id": 4,
+         "title": "Air Squat",
+         "desc": "Start with feet shoulder width apart and arms at your sides. Squat down, keeping your chest up and your knees out. Stand up, and repeat."
+       }
+     ]
+   },
+   {
+     "id": 10,
+     "title": "Diane",
+     "timeCap": "7 minutes",
+     "desc": "Diane is a CrossFit benchmark workout consisting of 21-15-9 reps of deadlifts and handstand push-ups.",
+     "exercises": [
+       {
+         "id": 1,
+         "title": "Deadlift",
+         "desc": "Start with the barbell on the ground. Bend down and grasp the bar, keeping your back straight. From there, explosively stand up, sending the barbell up to hip height."
+       },
+       {
+         "id": 2,
+         "title": "Handstand Push-Up",
+         "desc": "Start in a handstand against the wall. Lower your head to the ground, then press back up to the starting position."
+       }
+     ]
+   }
+ ]
